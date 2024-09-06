@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <title>Emprego para pessoas com deficiencia (PCD)</title>
+</head>
+<body>
+    <header>    
+       <h1> Venha procurar seu emprego com acessibilidade </h1>
+    </header>   
+    <Main>  
+        <Section>  
+            <input type="text" placeholder="Digite o nome da profissão ou da empresa que vc procura"  
+            id="campo-pesquisa">      
+            <label for="deficiencia"> <h3>Deficiência:</h3></label>
+    <select id="deficiencia">   
+ <option value="Tipo de deficiencia">Tipo de deficiencia</option>
+  <option value="visual">Visual</option>
+  <option value="auditiva">Auditiva</option>
+  <option value="física">Física</option>
+  <option value="intelectual">Intelectual</option>   
+  <option value="múltipla">Múltipla</option>   
+<option value="outra">Outra</option>    
+</select>
+              
+<button onclick="pesquisar()">Pesquisar</button> 
+        </Section>  
+    </Main> 
+    <Section class="resultados-pesquisa"    
+    id="resultados-pesquisa">              
+    </section> 
+    </main>
+    <footer>    
+        <P>2024 - Ana Clara Marucci </P>  
+        <p>Todos os direitos reservados. </p>
+    </footer>   
+    <script src="Dados.js"></script>   
+   <script src="app.js"></script>
+</body>
+</html>
